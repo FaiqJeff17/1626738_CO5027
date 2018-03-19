@@ -13,13 +13,13 @@ namespace _1626738_CO5027 {
     public partial class Site1 {
         
         /// <summary>
-        /// head control.
+        /// headContentPlaceholder control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder headContentPlaceholder;
         
         /// <summary>
         /// form1 control.
