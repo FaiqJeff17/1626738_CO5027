@@ -13,13 +13,22 @@ namespace _1626738_CO5027 {
     public partial class Site1 {
         
         /// <summary>
-        /// headContentPlaceholder control.
+        /// title control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder headContentPlaceholder;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder title;
+        
+        /// <summary>
+        /// css1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlLink css1;
         
         /// <summary>
         /// form1 control.
@@ -38,5 +47,14 @@ namespace _1626738_CO5027 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+        
+        /// <summary>
+        /// GoogleMap control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder GoogleMap;
     }
 }

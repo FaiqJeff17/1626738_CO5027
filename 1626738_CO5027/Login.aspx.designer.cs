@@ -10,69 +10,69 @@
 namespace _1626738_CO5027 {
     
     
-    public partial class Login {
+    public partial class LogIn {
         
         /// <summary>
-        /// form1 control.
+        /// Label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// label1 control.
+        /// TextLogInEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label label1;
+        protected global::System.Web.UI.WebControls.TextBox TextLogInEmail;
         
         /// <summary>
-        /// txtLoginEmail control.
+        /// Label2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtLoginEmail;
+        protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
-        /// label2 control.
+        /// TextLogInPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label label2;
+        protected global::System.Web.UI.WebControls.TextBox TextLogInPassword;
         
         /// <summary>
-        /// txtLoginPassword control.
+        /// ButtonLogIn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtLoginPassword;
+        protected global::System.Web.UI.WebControls.Button ButtonLogIn;
         
         /// <summary>
-        /// btnLogin control.
+        /// LitLogInError control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnLogin;
+        protected global::System.Web.UI.WebControls.Literal LitLogInError;
         
         /// <summary>
-        /// litLoginError control.
+        /// ButtonSignUp control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal litLoginError;
+        protected global::System.Web.UI.WebControls.Button ButtonSignUp;
     }
 }

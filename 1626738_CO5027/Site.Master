@@ -3,33 +3,56 @@
 <!DOCTYPE html>
 
 <html>
-<head runat="server">
-    <title>My New Webpage</title>
-    <asp:ContentPlaceHolder ID="headContentPlaceholder" runat="server">
-    </asp:ContentPlaceHolder>
-    <link href="styles.css" rel="stylesheet" type="text/css"
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div id="page">
-        <div id="header"
-            <h1> Website </h1>
-        </div>
 
-    <div id="menu">
-        <ul>
-            <li><a href="~Default.aspx" runat="server">Home</a></li>
-            <li><a href="~About.aspx" runat="server">Abouts</a></li>
-            <li><a href="~ContactUs.apsx" runat="server">Contact Us</a></li>
-        </ul>
-    </div>
-
-    <div id="content">
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-           
+    <head runat="server">
+        <title>
+            <asp:ContentPlaceHolder ID="title" runat="server">
             </asp:ContentPlaceHolder>
-    </div>
-</div>
-    </form>
-</body>
+        </title>
+
+        <link id="css1" runat="server" href="~/StyleSheet.css" rel="stylesheet" type="text/css" />
+        <meta name="viewport" content="initial-scale=1.0" />
+        <meta charset="utf-8" />
+
+    </head>
+
+    <body runat="server">
+        <form id="form1" runat="server">
+            <div id="page">
+
+                <div id="header">
+                    <img src="Logo/logo.jpg" />
+                </div>
+
+                <div id="menu">
+                    <ul>
+                        <li><a href="Default.aspx">Home</a></li>
+                        <li><a href="LogIn.aspx">Log In</a></li>
+                        <li><a href="Contact.aspx">Contact Us</a></li>
+                        <li><a href="Register.aspx">Register</a></li>
+
+                    </ul>
+                </div>
+
+                <div id="content">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    
+                    </asp:ContentPlaceHolder>
+                </div>
+
+                <asp:ContentPlaceHolder ID="GoogleMap" runat="server">
+
+                </asp:ContentPlaceHolder>
+
+                <div id="footer">
+                    <p>All Right Reserved 2018&copy</p>
+                    <p><a href="~/admin/index.aspx" runat="server">Administration</a></p>
+                </div>
+
+            </div>
+        
+        </form>
+
+    </body>
+
 </html>
